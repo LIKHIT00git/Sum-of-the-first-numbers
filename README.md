@@ -4,7 +4,7 @@ int main() {
 int number = 10;
 int sum;
 sum = recursiveSum(&number);
-printf("The sum of the first 10 numbers is: %d\n", sum);
+printf("Calculated Sum: %d\n", sum);
 return 0;
 }
 int recursiveSum(int *n) {
@@ -15,3 +15,4 @@ if (current == 0) {
 (*n)--;
 return current + recursiveSum(n);
 }
+
